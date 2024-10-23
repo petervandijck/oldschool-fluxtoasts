@@ -3,6 +3,8 @@
 Flux toast messages are really nice, but they are built to be used only with Livewire. 
 I use a lot of traditional non-Livewire Controllers with pageviews, and I wanted to use them there as well.
 After a good chat with Claude.ai, we created this approach which works really well.
+
+The trick is: we will create a Livewire component that can trigger a Flux toast using wire:init, and the Livewire controller will pull data from an oldschool Laravel session.
 - See: https://fluxui.dev/components/toast
 ## Installation
 1. Create the Livewire component:
