@@ -79,7 +79,7 @@ This is weird, but we need an empty Livewire component to act as a "listener". I
 
 ## Usage
 
-Now in your Controllers, you can do something like this:
+Now in your non-Livewire, oldschool Laravel Controllers, you can do something like this:
 
 ```php
 session()->flash('toast', [
